@@ -1,0 +1,317 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 120px 0px;
+}
+h1{
+    font-size: 2.0em;
+    line-height: 1.3em;
+    text-align: center;
+}
+h2 {
+    font-size: 1.2rem;
+    line-height: 1.4em;
+}
+h3{
+    font-size: 1.2rem;
+    line-height: 1.4em;
+}   
+h4{
+    font-size: 1.2rem;
+    line-height: 1.4em;
+} 
+h5{
+    font-size: 1.2rem;
+    line-height: 1.4em;
+} 
+h6{
+    font-size: 1.2rem;
+    line-height: 1.4em;
+} 
+
+P{
+    margin-bottom: 1.6em;
+}
+
+
+.header{
+    background: #ffffff;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+/*BARRA DE NAVENGACION*/
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+    
+.contenedor {
+    background: #ffffff;
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+    
+}
+.logo{
+    margin: 0px 60px;
+}
+.navigation > li{
+    position: relative;
+}
+.navigation ul{
+    background:#004669;
+    margin: 0%;
+    padding: 0;
+    list-style: none;   
+}
+ .navigation ul li{
+      display: inline-block;  
+  }
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 5rem;
+        transition: all 0.4s linear; 
+        
+     }
+     .navigation ul li a:hover {
+        background:#F0B429;
+        transition: all .3s;
+
+     }
+    
+
+     /*
+     .navigation > ul > li:hover div {
+    display:table;
+}
+
+     .navigation ul li div{
+     width:  100px;
+    position: center;
+    left:0;
+    background:#ccc;
+    box-sizing:border-box;
+    display:block;
+     }
+*/
+/*Submenu*/
+
+.submenu{
+    position: absolute;
+    width: 37%;
+    visibility:hidden;
+    opacity: 0;
+    
+    
+}
+.submenu li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    
+}
+.navigation li:hover .submenu{
+    visibility: visible; 
+    opacity: 1;
+}
+
+/*SUBITEMS DE ACTIVIDADES*/
+.subitems{
+    position: absolute;
+    width: 37%;
+    visibility:hidden;
+    opacity: 0;
+    
+    
+}
+.subitems li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 50px 16px;
+    text-decoration: none;
+    
+}
+.navigation li:hover .subitems{
+    visibility: visible; 
+    opacity: 1;
+}
+
+.main{
+padding: 2rem;
+
+}
+
+/*PIE DE PAGINA*/
+footer{
+    width: 100%; 
+    background: black;
+    color: white;
+}  
+
+.container-footer-all{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+.container-PDP {
+    display: flex;
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+.col-md-1{
+    max-width: 400px;
+    margin: 25px 0;
+}
+.col-md-2{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.col-md-3{
+    max-width: 400px;
+    margin: 0 auto;   
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.row1{
+    margin-top: 20px;
+}
+.container-footer{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1100px){
+    .container-PDP{
+        flex-wrap: wrap;
+    }
+}
+
+
+/*ACTIVIDADES*/
+/*TITULO*/
+.Atitulo{
+  color:#F0B429;
+  font-family: Snap ITC; 
+}
+
+.actividades{
+ 
+ border-collapse: collapse; 
+ border: #004669 5px solid;
+width: 500px;
+ height: 250px;
+}
+
+
+.image{
+  width: 220px;
+  height:220px;
+}
+
+.boton{
+  
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #004669;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.boton:hover {background-color: #3e8e41}
+
+.boton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/*COMPLETA EL CODIGO*/
+
+.LINEA{
+  color:#F0B429;
+  font-family: Snap ITC
+}
+
+.text{
+
+ vertical-align: top;
+ margin-left:5px;
+ width:  300px;
+ height:  470px;
+}
+
+.imagen1{
+
+  width: 540px;
+  height:500px;
+}
+.hr1{
+  border: #004669 2px solid;
+}
+
+/*Aside*/
+
+.secundaria{
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+}
+article{
+    background-color:rgb(255, 255, 255);
+}
+aside{
+    background-color:rgb(255, 255, 255);
+    display: inline-block;
+    width: 28%;
+    height: 600px;
+    margin-left: 5px;    
+    overflow: auto;
+}
+/*Autores*/
+
+
+.foto {
+    float: right;
+    height: 195px;
+    width: 200px;
+    margin: 25px 70px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
+}
+
+    
